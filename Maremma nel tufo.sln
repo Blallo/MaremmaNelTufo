@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Maremma nel tufo", ".", "{8BD651AF-BC86-454C-9783-3F226E0DF385}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50418"
+		Debug.AspNetCompiler.PhysicalPath = "..\Maremma nel tufo\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50418\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50418"
+		Release.AspNetCompiler.PhysicalPath = "..\Maremma nel tufo\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50418\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50416"
+		SlnRelativePath = "..\Maremma nel tufo\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingEngine", "..\BookingEngine\BookingEngine.csproj", "{DC9E60A2-3907-48A7-A147-48B08F2880BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QrVideo", "..\QrVideo\QrVideo.csproj", "{4D1099B5-D4FC-4DFA-9A6C-9BED7D58843D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BD651AF-BC86-454C-9783-3F226E0DF385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD651AF-BC86-454C-9783-3F226E0DF385}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD651AF-BC86-454C-9783-3F226E0DF385}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD651AF-BC86-454C-9783-3F226E0DF385}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{DC9E60A2-3907-48A7-A147-48B08F2880BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9E60A2-3907-48A7-A147-48B08F2880BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9E60A2-3907-48A7-A147-48B08F2880BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9E60A2-3907-48A7-A147-48B08F2880BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1099B5-D4FC-4DFA-9A6C-9BED7D58843D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1099B5-D4FC-4DFA-9A6C-9BED7D58843D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1099B5-D4FC-4DFA-9A6C-9BED7D58843D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1099B5-D4FC-4DFA-9A6C-9BED7D58843D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
